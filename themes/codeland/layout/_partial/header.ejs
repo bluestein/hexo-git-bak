@@ -3,16 +3,21 @@
     <div id="header-inner" class="inner">
       <div id="header-title">
         <h1 id="logo-wrap">
-          <a href="<%- url_for() %>" id="logo"><%= config.title %>
-          <% if (theme.subtitle){ %>
-              <span id="subtitle"><%= theme.subtitle %></span>
-          <% } %>
+          <a href="<%- url_for() %>" id="logo">
+          <%= config.title %>
           </a>
+          <% if (theme.subtitle){ %>
+              <br/><span id="subtitle"><%= theme.subtitle %></span>
+          <% } %>
         </h1>
       </div>
       <nav id="sub-nav">
+        <a target="_blank" id="nav-github-link" class="nav-icon" href="https://github.com/bluestein" title="humooo's github"></a>
+
+        <a target="_blank" id="nav-weibo-link" class="nav-icon" href="http://weibo.com/u/3239589332" title="humooo's weibo"></a>
+
         <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS"></a>
         <% } %>
       </nav>
       <nav id="main-nav">

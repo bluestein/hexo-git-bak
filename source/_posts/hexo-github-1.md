@@ -106,7 +106,7 @@ duoshuo_shortname: (你的多说ID)
 <% if (!index && post.comments && config.duoshuo_shortname){ %>
 <section id="comments">
   <div id="duoshuo_thread">
-    <div class="ds-thread" data-thread-key="<%= post._id %>" data-title="<%= post.title %>" data-url="<%- post.permalink %>"></div>
+    <div class="ds-thread" data-thread-key="<%= post.slug %>" data-title="<%= post.title %>" data-url="<%- post.permalink %>"></div>
   </div>
 </section>
 <% } %>
@@ -121,7 +121,7 @@ duoshuo_shortname: (你的多说ID)
 ```javascript
 <% if (!index && post.comments && config.duoshuo_shortname){ %>
 
-  <div class="ds-share" data-thread-key="<%= post._id %>" data-title="<%= post.title %>" data-images="" data-content="<%= post.content %>" data-url="<%- post.permalink %>">
+  <div class="ds-share" data-thread-key="<%= post.slug %>" data-title="<%= post.title %>" data-images="" data-content="<%= post.content %>" data-url="<%- post.permalink %>">
     <div class="ds-share-aside-right">
       <div class="ds-share-aside-inner">
       </div>

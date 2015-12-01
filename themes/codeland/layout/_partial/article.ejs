@@ -28,7 +28,7 @@
       <% } %>
       <% if (index && post.comments && config.duoshuo_shortname){ %>
         <a href="<%- post.permalink %>#duoshuo_thread" class="article-comment-link">评论
-        (<span class="post-comments-count ds-thread-count" data-thread-key="<%= post._id %>" data-count-type="comments"></span>)</a>
+        (<span class="post-comments-count ds-thread-count" data-thread-key="<%= post.slug %>" data-count-type="comments"></span>)</a>
       <% } %>
       <%- partial('post/tag') %>
     </footer>
@@ -49,14 +49,14 @@
 <% if (!index && post.comments && config.duoshuo_shortname){ %>
 <section id="comments">
   <div id="duoshuo_thread">
-    <div class="ds-thread" data-thread-key="<%= post._id %>" data-title="<%= post.title %>" data-url="<%- post.permalink %>"></div>
+    <div class="ds-thread" data-thread-key="<%= post.slug %>" data-title="<%= post.title %>" data-url="<%- post.permalink %>"></div>
   </div>
 </section>
 <% } %>
 
 <% if (!index && post.comments && config.duoshuo_shortname){ %>
 
-  <div class="ds-share" data-thread-key="<%= post._id %>" data-title="<%= post.title %>" data-images="" data-content="<%= post.content %>" data-url="<%- post.permalink %>">
+  <div class="ds-share" data-thread-key="<%= post.slug %>" data-title="<%= post.title %>" data-images="" data-content="<%= post.content %>" data-url="<%- post.permalink %>">
     <div class="ds-share-aside-right">
       <div class="ds-share-aside-inner">
       </div>
