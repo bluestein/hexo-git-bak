@@ -1,0 +1,15 @@
+<div id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons License</a><br/>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br/>
+      The theme is <a target="_blank" href="https://github.com/bluestein/hexo-theme-allgreen">Allgreen</a>,
+      based on <a target="_blank" href="https://github.com/xing5/hexo-theme-codeland">Codeland</a>,
+      modified by <a target="_blank" href="http://bluestein.github.io/about/">Humooo</a><br/>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</div>
