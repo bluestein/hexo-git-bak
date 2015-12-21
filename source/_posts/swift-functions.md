@@ -1,7 +1,7 @@
 title: 'swift: functions' 
 tags:
   - Swift
-  - Objective-C
+  - iOS
 categories:
   - Dev
   - Swift
@@ -31,9 +31,11 @@ print(sayHello("Brian"))
 使用 `print(_:separator:terminator:)` 来打印输出。
 
 **parameters and return values**
+
 swift中的函数的参数和返回值可以是任何类型，甚至可以是函数类型（在swift中，函数也是一种类型，后面会讲到）。
 
 **without parameters**
+
 ```swift
 func sayHelloWorld() -> string {
 	return "Hello World"
@@ -41,6 +43,7 @@ func sayHelloWorld() -> string {
 ```
 
 **multiple parameters**
+
 多个参数时，用逗号隔开即可：
 ```swift
 func sayHello(personName: String, alreadyGreeted: Bool) -> String {
@@ -55,6 +58,7 @@ print(sayHello("Tim", alreadyGreeted: false))
 调用的形式是 `sayHello(_:alreadyGreeted:)`，通常第一个参数名后面的所有参数名需要标明。
 
 **without return value**
+
 ```swift
 func sayBye(personName: String) {
 	print("Goodbye, \(personName)!)
@@ -64,6 +68,7 @@ sayBye("Dave")
 > 严格地说，`sayBye(_:)` 还是有返回值的，为 `Void` 类型， 记作 `()`。
 
 **multiple return values**
+
 ```swift
 func minMax(array: [Int]) -> (min: Int, max: Int) {
 	var currentMin = array[0]
@@ -108,6 +113,7 @@ print(minMax(emptyArray))
 ```
 
 **functon names**
+
 ```swift
 func someFuction(fisrtParameterName: Int, secondParameterName: Int) {
 	// function body goes here
@@ -118,6 +124,7 @@ someFuction(1, secondParameterName: 2)
 默认情况下，省略了第一个参数额外参数，其他则使用 `local name` 作为 `external name`
 
 **external parameter names**
+
 ```swift
 func someFuction(externalParameterName localParameterName: Int) {
 	// function body goes here
@@ -127,7 +134,9 @@ someFuction(externalParameterName: 1)
 ```
 
 **omitting external names**
+
 使用下划线 `_` 来替代，则调用时不用标明external names：
+
 ```swift
 func someFuction(fisrtParameterName: Int, _ secondParameterName: Int) {
 	// function body goes here
@@ -137,6 +146,7 @@ someFuction(1, 2)
 ```
 
 **default parameter values**
+
 ```swift
 func someFuction(localParameterName: Int = 12) {
 	// function body goes here
@@ -147,7 +157,9 @@ someFuction()
 ```
 
 **variadic parameters**
+
 参数个数可变的情况，在参数的类型后面使用 `...` 来表示该类型的参数可以不确定：
+
 ```swift
 func arithmeticMean(numbers: Double...){
 	var total: Double = 0
@@ -161,7 +173,9 @@ arithmeticMean(3, 1.5, 14.75)
 ```
 
 **constant and variable parameter**
+
 一般来说函数为常量参数，但也可以用变量参数。使用 `var` 来表明变量参数，这样就可以改变该变量的值：
+
 ```swift
 func alignRight(var sting: String, totalLength: Int, pad: Character) -> String {
 	let amountToPad = totalLength - string.characters.count
@@ -181,6 +195,7 @@ let paddesString = alginRigth(originalString, totalLength: 10, pad:
 ```
 
 **in-out parameters**
+
 上面所说的变量参数，只能在当前函数内可以改变它的值，如果想要永久改变一个值则需要需用 `inout` 关键字标明。并且调用时需要在变量前加上 `&` 符号：
 ```swift
 func swapTwoInts(inout a: Int, inout _ b: Int) {
@@ -195,6 +210,7 @@ swapTwoInts(&someInt, &anotherInt)
 ```
 
 **Function types**
+
 swift把函数也当作一种类型看待，可以像 `Int` 那样进行操作：
 ```swift
 func addTwoInts(a: Int, _ b: Int) -> Int {
@@ -213,18 +229,23 @@ func printHelloWorld() {
 则可以看做 `() -> Void`。
 
 **using function type**
+
 把 `addTwoInts` 函数当成是一种类型赋给 `mathFunction` 变量：
+
 ```swift
 var mathFunction: (Int, Int) -> Int = addTwoInts
 print("Result: \(mathFunction(1, 2))")
 // prints "Result: 3"
 ```
+
 前面说到， `addTwoInts` 和 `multiplyTwoInts` 函数在形式上是一致的，则下面代码也成立：
+
 ```swift
 mathFunction = multiplyTwoInts
 ```
 
 **function types as parameter type**
+
 ```swift
 func printMathResult(mathFunction: (Int, Int) -> int, _ a: Int, _ b: Int) {
 	print("Result: \(mathFunction(a, b))")
@@ -232,9 +253,11 @@ func printMathResult(mathFunction: (Int, Int) -> int, _ a: Int, _ b: Int) {
 printMathResult(addTwoInts, 3, 5)
 prints "Result: 8"
 ```
+
 很容易看懂， `printMathResult(_:_:_:)` 函数有三个参数，分别是：`(Int, Int) -> int`, `Int` 和 `Int`。
 
 **function types as return types**
+
 ```swift
 func stepForward(input: Int) -> Int {
 	return input + 1
@@ -247,7 +270,9 @@ func chooseStep(backwards: Bool) -> (Int) -> Int {
 	return backwards ? stepBackward : stepForward
 }
 ```
+
 显然 `chooseStep(:)` 函数使用 `(Int) -> Int` 类型的函数作为返回值。
+
 ```swift
 var value = 3
 let moveNearerToZearo = chooseStep(value > 0)
@@ -265,6 +290,7 @@ print("zero!")
 ```
 
 **Nested function**
+
 ```swift
 func chooseStep(backwards: Bool) -> (Int) -> Int {
 	func stepForward(input: Int) -> Int {

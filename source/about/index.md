@@ -34,9 +34,9 @@ date: 2015-11-28 17:46:05
 
 ### 联系方式 ###
 
-**QQ:** bluestein@qq.com (常用)
-**Email1:** humooo@outlook.com (常用)
-**Email2:** bluestein@qq.com
+**QQ:** bluestein(at)qq.com (常用)
+**Email1:** humooo(at)outlook.com (常用)
+**Email2:** bluestein(at)qq.com
 
 **Github:** [humooo/bluestein][4]
 
