@@ -4,9 +4,9 @@
 
 # Site
 title: Humooo's Blog
-subtitle: Everything will be ok
-description: Liu's Blog
-author: Bluestein/Humooo(humooo@outlook.com)
+subtitle: Plodding wins the race
+description: Humooo's Blog / bluestein's blog / C++ / Swift / Python / CS
+author: Humooo
 language:
 timezone: Asia/Shanghai
 
@@ -65,13 +65,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: codeland
+theme: allgreen
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/bluestein/bluestein.github.io.git
+  repo: git@github.com:bluestein/bluestein.github.io.git
   branch: master
 
 # Comments

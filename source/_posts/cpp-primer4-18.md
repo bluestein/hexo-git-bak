@@ -215,3 +215,10 @@ char *cp = (char*) ip;
 > C++仍旧支持旧式强制转换，但不推荐这样做。除非在C语言下，或旧式编译器上才使用。
 
 END.
+
+---
+
+Github Pages同步更新
+Github Pages: [Humooo's Blog][1]
+
+[1]: http://bluestein.github.io/

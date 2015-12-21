@@ -3,7 +3,7 @@ tags:
   - github
   - git
 categories:
-  - Github
+  - Github + Hexo
 date: 2015-12-03 09:54:49
 ---
 

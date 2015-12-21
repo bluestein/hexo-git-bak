@@ -3,8 +3,8 @@ tags:
   - C++
   - C++ Demo
 categories:
-  - Dev
-  - C++ Demo
+  - Demo
+  - C++
 date: 2015-11-21 22:01:42
 ---
 

@@ -4,8 +4,7 @@ tags:
   - github
   - github pages
 categories:
-  - Hexo
-  - guide
+  - Github + Hexo
 date: 2015-11-30 15:54:49
 ---
 
