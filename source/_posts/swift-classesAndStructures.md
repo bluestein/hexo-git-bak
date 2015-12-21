@@ -19,6 +19,8 @@ date: 2015-12-21 20:42:42
 - Be extended to expand their functionality beyond a default implementation
 - Conform to protocols to provide standard functionality of a certain kind
 
+<!-- more -->
+
 class可以但structure不行：
 
 - Inheritance enables one class to inherit the characteristics of another.（继承另一个类）

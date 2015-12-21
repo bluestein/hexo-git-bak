@@ -18,6 +18,8 @@ enum SomeEnumeration {
 }
 ```
 
+<!-- more -->
+
 下面是一个 compass 的例子，使用 `case` 来引出 enumeration 的各项：
 
 ```swift
