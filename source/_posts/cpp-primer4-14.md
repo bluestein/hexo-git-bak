@@ -1,10 +1,10 @@
-title: '14:位操作符'
+title: 'Cpp:位操作符'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-24 16:50:05
 ---
 

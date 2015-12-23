@@ -1,10 +1,9 @@
-title: 'c++ demo: while-拷贝数组，用string创建vector'
+title: 'Cpp Code: while, ex6.12'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-12-22 15:03:42
 ---
 
@@ -28,13 +27,15 @@ int main()
 	int *source = arr;
 	size_t sz = sizeof(arr) / sizeof(*arr);
 	int *dest = new int[sz];
-	while (source != arr + sz) {
+	while (source != arr + sz) 
+	{
 		*dest++ = *source++;
 	}
 
 	// test
 	int *dp = dest - sz;
-	for (size_t i = 0; i < sz; ++i) {
+	for (size_t i = 0; i < sz; ++i) 
+	{
 		cout << *dp << endl;
 		dp++;
 	}
@@ -71,7 +72,8 @@ using std::endl;
 using std::string;
 using std::vector;
 
-bool isCharacter(char ch) {
+bool isCharacter(char ch) 
+{
 	return (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z');
 }
 
@@ -84,14 +86,17 @@ int main()
 	vector<string> raw;
 	string tmp = "";
 	while (*cp) {
-		if (isCharacter(*cp)) {
+		if (isCharacter(*cp)) 
+		{
 			tmp += *cp++;
-			if (*cp != '\0') {
+			if (*cp != '\0') 
+			{
 				continue;
 			}
 		}
 		
-		if (!tmp.empty()) {
+		if (!tmp.empty()) 
+		{
 			raw.push_back(tmp);
 			tmp = "";
 		}
@@ -103,15 +108,19 @@ int main()
 	vector<int> cnt;
 	unique.push_back(raw[0]);
 	cnt.push_back(0);
-	for (vector<string>::size_type i = 0; i != raw.size(); ++i) {
+	for (vector<string>::size_type i = 0; i != raw.size(); ++i) 
+	{
 		bool found = false;
-		for (vector<string>::size_type j = 0; j != unique.size(); ++j) {
-			if (raw[i] == unique[j]) {
+		for (vector<string>::size_type j = 0; j != unique.size(); ++j) 
+		{
+			if (raw[i] == unique[j]) 
+			{
 				++cnt[j];
 				found = true;
 			}
 		}
-		if(!found) {
+		if(!found) 
+		{
 			unique.push_back(raw[i]);
 			cnt.push_back(1);
 		}
@@ -121,9 +130,11 @@ int main()
 	int max = cnt[0];
 	int max_index = 0;
 	vector<int>::size_type i = 0;
-	for (; i != cnt.size(); ++i) {
+	for (; i != cnt.size(); ++i)
+	{
 		cout << "单词：" << unique[i] << ",出现次数为：" << cnt[i] << endl;
-		if (max < cnt[i]) {
+		if (max < cnt[i]) 
+		{
 			max = cnt[i];
 			max_index = i;
 		}

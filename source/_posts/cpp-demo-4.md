@@ -1,10 +1,9 @@
-title: 'c++ demo: if语句'
+title: 'Cpp Code: if语句'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-12-17 15:32:42
 ---
 

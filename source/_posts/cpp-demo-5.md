@@ -1,10 +1,9 @@
-title: 'c++ demo: switch-统计字符出现次数'
+title: 'Cpp Code: switch, ex6.9'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-12-22 09:42:42
 ---
 
@@ -77,7 +76,7 @@ Number of vowel u/U:    1
 Number of other characters:     12
 ```
 
-### Exercise 6.12 ###
+### Exercise 6.9 ###
 
 统计下列字符序列出现的次数：ff、fl以及fi。 
 

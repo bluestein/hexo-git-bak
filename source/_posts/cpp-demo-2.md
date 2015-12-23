@@ -1,10 +1,9 @@
-title: 'c++ demo: 输入多个string对象，并存放在vector中'
+title: 'Cpp Code: 输入多个string对象，并存放在vector中'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-11-25 22:01:42
 ---
 
@@ -29,13 +28,15 @@ int main()
 {
 	vector<string> svec;
 	string str;
-	while (cin >> str) {
+	while (cin >> str) 
+	{
 		svec.push_back(str);
 	}
 
 	char **cp_arr = new char*[svec.size()];//指针数组
 	int cnt = 0;
-	for (vector<string>::iterator iter = svec.begin(); iter != svec.end(); ++iter) {
+	for (vector<string>::iterator iter = svec.begin(); iter != svec.end(); ++iter) 
+	{
 		string s = *iter;
 		char *cp = new char[s.size()+1];//+1表示为null结束符预留空间
 		strncpy(cp, s.c_str(), s.size()+1);
@@ -43,7 +44,8 @@ int main()
 		++cnt;
 	}
 
-	for (int i = 0; i != cnt; ++i) {
+	for (int i = 0; i != cnt; ++i) 
+	{
 		cout << cp_arr[i] << endl;
 		delete[] cp_arr[i];
 	}

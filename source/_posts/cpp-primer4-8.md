@@ -1,10 +1,10 @@
-title: '8:迭代器iterator'
+title: 'Cpp:迭代器iterator'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-18 16:49:34
 ---
 

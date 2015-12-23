@@ -1,10 +1,10 @@
-title: '6:using声明和string类型'
+title: 'Cpp:using声明和string类型'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-15 16:31:46
 ---
 

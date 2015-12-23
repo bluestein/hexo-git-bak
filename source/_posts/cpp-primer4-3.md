@@ -1,10 +1,10 @@
-title: '3:变量'
+title: 'Cpp:变量'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-10 16:31:28
 ---
 

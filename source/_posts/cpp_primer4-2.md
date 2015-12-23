@@ -1,10 +1,10 @@
-title: '2: 基本类型与字面值常量'
+title: 'Cpp: 基本类型与字面值常量'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-9 10:36:09
 ---
 

@@ -1,10 +1,10 @@
-title: '17:new & delete'
+title: 'Cpp:new & delete'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-27 16:50:24
 ---
 

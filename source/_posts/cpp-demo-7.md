@@ -1,10 +1,9 @@
-title: 'c++ demo: for-比较两个int型vector对象，判断一个是否是另一个的前缀'
+title: 'Cpp Code: : ex6.16'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-12-22 20:03:42
 ---
 
@@ -24,13 +23,15 @@ using std::cout;
 using std::endl;
 using std::vector;
 
-bool isPrefix(vector<int> a, vector<int> b) {
+bool isPrefix(vector<int> a, vector<int> b)
+{
 	int sz1 = a.size(), sz2 = b.size();
 	int sz = sz1 > sz2 ? sz2 : sz1;
 	int matched = 0;
 	for (size_t i = 0; i < sz; i++)
 	{
-		if (a[i] == b[i]) {
+		if (a[i] == b[i]) 
+		{
 			++matched;
 		}
 	}

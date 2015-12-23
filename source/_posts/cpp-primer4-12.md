@@ -1,10 +1,10 @@
-title: '12:C风格字符串'
+title: 'Cpp:C风格字符串'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-22 16:49:54
 ---
 

@@ -1,10 +1,10 @@
-title: '13:算术操作符'
+title: 'Cpp:算术操作符'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-23 16:50:00
 ---
 

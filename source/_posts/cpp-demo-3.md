@@ -1,10 +1,9 @@
-title: 'c++ demo: vector存放指针'
+title: 'Cpp Code: vector存放指针'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-12-02 22:01:42
 ---
 
@@ -35,7 +34,8 @@ int main()
 		v.push_back(sp);
 	}
 	vector<string *>::iterator iter = v.begin();
-	while (iter != v.end()) {
+	while (iter != v.end()) 
+	{
 		string *tmp = *iter;
 		cout << tmp->size() << ", " << *tmp << endl;
 		delete tmp;

@@ -1,10 +1,10 @@
-title: '16:赋值操作和自增自减'
+title: 'Cpp:赋值操作和自增自减'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-26 16:50:15
 ---
 

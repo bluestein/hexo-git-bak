@@ -1,10 +1,10 @@
-title: '7:vector类型'
+title: 'Cpp:vector类型'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-17 16:31:51
 ---
 

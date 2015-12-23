@@ -1,10 +1,10 @@
-title: '19:语句'
+title: 'Cpp:语句'
 tags:
-  - C++
-  - C++ primer
+  - Cpp
+  - Cpp primer
 categories:
   - Dev
-  - C++
+  - Cpp
 date: 2015-12-17 16:13:33
 ---
 

@@ -1,10 +1,10 @@
-title: '1: 快速入门'
+title: 'Cpp: 快速入门'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-8 10:33:12
 ---
 

@@ -1,10 +1,10 @@
-title: '18:类型转换'
+title: 'Cpp:类型转换'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-28 16:50:29
 ---
 

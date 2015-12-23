@@ -1,10 +1,10 @@
-title: '11:指针'
+title: 'Cpp:指针'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-21 16:49:49
 ---
 

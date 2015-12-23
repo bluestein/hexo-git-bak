@@ -1,10 +1,9 @@
-title: 'c++ demo: 输入可变长字符串'
+title: 'Cpp Code: 输入可变长字符串'
 tags:
-  - C++
-  - C++ Demo
+  - Cpp
 categories:
-  - Demo
-  - C++
+  - Code
+  - Cpp
 date: 2015-11-21 22:01:42
 ---
 

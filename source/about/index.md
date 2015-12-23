@@ -13,10 +13,10 @@ date: 2015-11-28 17:46:05
 **生日：** 1992-12-25
 **民族：** 汉
 
-**爱好：** 跑步、上网、看电影、爱动漫
-**技能：** C++、PHP、Java、Matlab
+**爱好：** 吃、跑步、电影、动漫、海贼王
+**技能：** C++, Swift, Python, Java, PHP
 
-<p>学了四年数学 / 读了三年计算机 / 看了两年动漫</p>
+<p>野生程序猿 / 学了四年数学 / 读了三年计算机 / 看了两年动漫</p>
 
 ---
 
@@ -34,11 +34,8 @@ date: 2015-11-28 17:46:05
 
 ### 联系方式 ###
 
-**QQ:** bluestein(at)qq.com (常用)
-**Email1:** humooo(at)outlook.com (常用)
-**Email2:** bluestein(at)qq.com
-
-**Github:** [humooo/bluestein][4]
+**Email:** humooo (at) outlook.com (常用)
+**Gayhub:** [humooo/bluestein][4]
 
 [1]: ../images/ye.jpg "Ye!"
 [2]: ../images/hfut.png "合肥工业大学"

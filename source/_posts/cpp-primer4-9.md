@@ -1,10 +1,10 @@
-title: '9:bitset类型'
+title: 'Cpp:bitset类型'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-19 16:49:39
 ---
 

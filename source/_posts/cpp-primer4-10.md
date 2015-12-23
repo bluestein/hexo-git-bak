@@ -1,10 +1,10 @@
-title: '10:数组'
+title: 'Cpp:数组'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-20 16:49:44
 ---
 

@@ -1,10 +1,10 @@
-title: '4:const、引用和typedef'
+title: 'Cpp:const、引用和typedef'
 tags:
-- C++
-- C++ primer
-categories: 
-- Dev
-- C++
+  - Cpp
+  - Cpp primer
+categories:
+  - Dev
+  - Cpp
 date: 2015-11-12 16:31:33
 ---
 
