@@ -8,7 +8,7 @@ categories:
 date: 2015-12-21 20:42:42
 ---
 
-**comparing classes and structures**
+### comparing classes and structures ###
 
 都可以：
 
@@ -31,7 +31,7 @@ class可以但structure不行：
 
 > Structures are always copied when they are passed around in your code, and do not use reference counting.
 
-**syntax**
+### syntax ###
 
 ```swift
 class SomeClass {
@@ -44,7 +44,7 @@ struct SomeStructrue {
 
 定义一个 class 或 struct 实际上是定义了一种类型，跟 String，Int 等类似。一般来说 class 和 struct 的名字用 UpperCamelCase，属性和方法名则用 lowerCamelCase。例如
 
-```swift
+```swift
 struct Resolution {
     var width = 0
     var height = 0
@@ -59,7 +59,7 @@ class VideoMode {
 
 上面的 struct 有两个属性，class 有四个属性，其中一个是 struct 类型，name 属性会有一个默认值是 `nil`，因为它是 optional。
 
-**class and structure instances**
+### class and structure instances ###
 
 ```swift
 let someResolution = Resolution()
@@ -97,7 +97,7 @@ let vga = Resolution(width: 640, height: 480)
 
 上面的方式，class 不支持。
 
-**structures and enumerations are value types**
+### structures and enumerations are value types ###
 
 原话：A value type is a type whose value is copied when it is assigned to a variable or constant, or when it is passed to a function.
 
@@ -134,7 +134,7 @@ if rememberDirection == .West {
 }
 ```
 
-**classes are reference types**
+### classes are reference types ###
 
 与 value type 不同，reference type 会取代现有的实例：
 
@@ -152,7 +152,7 @@ print("The frameRate property of tenEighty is now \(tenEighty.frameRate)")
 // prints "The frameRate property of tenEighty is now 30.0"
 ```
 
-**identity operators**
+### identity operators ###
 
 因为 class 是 reference type，所以有必要比较两个常量或变量是否 refer 到同一个类的实例上，有两个操作符可以完成这件事：
 
@@ -173,7 +173,7 @@ if tenEighty === alsoTenEighty {
 
 swift 中的 refer 到某个 reference type 的实例跟 C，C++ 中的指针是类似的，但不需要 `*` 来定义。
 
-**choose structure or class**
+### choose structure or class ###
 
 structure instances are always passed by value, and class instances are always passed by reference.
 

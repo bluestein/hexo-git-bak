@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Humooo's Blog
-subtitle: Plodding wins the race
-description: Humooo's Blog / bluestein's blog / C++ / Swift / Python / CS
+title: Humooo
+subtitle: Humooo's Blog
+description:  Plodding wins the race
 author: Humooo
-language:
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -65,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: allgreen
+theme: next-pisces
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -77,3 +77,24 @@ deploy:
 # Comments
 # disqus_shortname: humooo1992
 duoshuo_shortname: humooo
+
+# index generator:
+index_generator:
+  per_page: 5
+
+# archive generator
+archive_generator:
+  per_page: 20
+  yearly: true #按年生成归档
+  monthly: true #按月生成归档
+  daily: false
+
+# tag generator
+tag_generator:
+  per_page: 10
+
+category_generator:
+  per_page: 10
+
+# 头像
+avatar: /images/ye.jpg

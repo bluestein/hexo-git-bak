@@ -8,7 +8,7 @@ categories:
 date: 2015-12-20 19:53:33
 ---
 
-**defining and calling**
+### defining and calling ###
 
 以定义一个 `sayHello(_:)` 函数作为例子：该函数将一个人的名字作为输入，以一句问候作为返回值：
 ```swift
@@ -30,7 +30,7 @@ print(sayHello("Brian"))
 ```
 使用 `print(_:separator:terminator:)` 来打印输出。
 
-**parameters and return values**
+### parameters and return values ###
 
 swift中的函数的参数和返回值可以是任何类型，甚至可以是函数类型（在swift中，函数也是一种类型，后面会讲到）。
 
@@ -112,7 +112,7 @@ print(minMax(emptyArray))
 // prints "nil"
 ```
 
-**functon names**
+### functon names ###
 
 ```swift
 func someFuction(fisrtParameterName: Int, secondParameterName: Int) {
@@ -145,7 +145,7 @@ func someFuction(fisrtParameterName: Int, _ secondParameterName: Int) {
 someFuction(1, 2)
 ```
 
-**default parameter values**
+### default parameter values ###
 
 ```swift
 func someFuction(localParameterName: Int = 12) {
@@ -209,7 +209,7 @@ var anotherInt = 3
 swapTwoInts(&someInt, &anotherInt)
 ```
 
-**Function types**
+### Function types ###
 
 swift把函数也当作一种类型看待，可以像 `Int` 那样进行操作：
 ```swift
@@ -289,7 +289,7 @@ print("zero!")
 // zero!
 ```
 
-**Nested function**
+### Nested function ###
 
 ```swift
 func chooseStep(backwards: Bool) -> (Int) -> Int {

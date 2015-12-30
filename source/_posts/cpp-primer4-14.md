@@ -57,7 +57,7 @@ unsigned char bits = c1 | c2;	//二进制形式：11101011
 cout << bits << endl;	//对应的十进制为239
 ```
 
-**bitset对象或整型值的使用**
+### bitset对象或整型值的使用 ###
 
 unsigned long 有 32 位
 
@@ -113,7 +113,7 @@ cout << (val1 | val2) << endl;
 
 > 通常来说，bitset更易阅读和理解。
 
-**将移位操作符用于IO**
+### 将移位操作符用于IO ###
 
 一直再用的 `cout<<` 和 `cin>>` 就用到了移位操作符，IO操作符是左结合的
 

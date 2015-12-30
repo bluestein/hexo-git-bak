@@ -1,7 +1,9 @@
-title: About Me
-date: 2015-11-28 17:46:05
----
-
+title: "我"
+tags:
+  - me
+categories:
+  - me
+date: 2015-11-28 17:54:49
 ---
 
 ### 我 ###
@@ -34,10 +36,10 @@ date: 2015-11-28 17:46:05
 
 ### 联系方式 ###
 
-**Email:** humooo (at) outlook.com (常用)
+**Email:** humooo (at) outlook.com
 **Gayhub:** [humooo/bluestein][4]
 
-[1]: ../images/ye.jpg "Ye!"
-[2]: ../images/hfut.png "合肥工业大学"
-[3]: http://www.hfut.edu.cn/ch/ "合肥工业大学主页"
+[1]: /images/ye.jpg
+[2]: /images/hfut.png
+[3]: http://www.hfut.edu.cn/ch/
 [4]: https://github.com/bluestein

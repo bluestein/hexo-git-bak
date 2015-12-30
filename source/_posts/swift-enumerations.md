@@ -8,7 +8,7 @@ categories:
 date: 2015-12-21 17:53:33
 ---
 
-**Syntax**
+### Syntax ###
 
 使用 `enum` 关键字引出 enumeration 的定义：
 
@@ -47,7 +47,7 @@ planet = .Saturn
 使用enum定义后都是一种类型。
 `planet` 被一个 `Planet` 初始化之后，它就可以被赋以该类型的其他值而不需要重新标明该类型。
 
-**matching enumeration with a switch statement**
+### matching enumeration with a switch statement ###
 
 ```swift
 var direction = CompassPoint.South
@@ -78,7 +78,7 @@ default:
 	print("Not a safe place for humans")
 ```
 
-**associated values**
+### associated values ###
 
 可以给枚举来存放任何类型的值，例如条形码的例子：
 
@@ -118,12 +118,12 @@ case let .QRCode(productCode):
 }
 ```
 
-**raw values**
+### raw values ###
 
 
 一个叫 `ASCIIControlCharacter` 的枚举存放的是 Character 类型：
 
-```swift
+```swift
 enum ASCIIControlCharacter: Character {
     case Tab = "\t"
     case LineFeed = "\n"
@@ -131,11 +131,11 @@ enum ASCIIControlCharacter: Character {
 }
 ```
 
-raw value 可以是 string，character，int，float，每个 raw value 必须唯一。
+raw value 可以是 string，character，int，float，每个 raw value 必须唯一。
 
 > raw value 与 associated value 不同，raw value 是预设的值。
 
-**Implicitly Assigned raw value**
+### Implicitly Assigned raw value ###
 
 隐式指定的 raw value 是指当指定了 raw type 时，每个值会比前一个大1，如果第一个未指定时，则赋为 0 ，依次增加。还是前面的 `Planet` 例子：
 
@@ -156,7 +156,7 @@ enum CompassPoint: String {
 CompassPoint.North.rawValue // prints "North"
 ```
 
-**initializing from a raw value**
+### initializing from a raw value ###
 
 ```swift
 let possiblePlanet = Planet(rawValue: 7)
@@ -180,7 +180,7 @@ if let somePlanet = Planet_raw(rawValue: positionToFind) {
 // prints "There isn't a planet at position 9"
 ```
 
-**recursive enumrarions**
+### recursive enumrarions ###
 
 像算术表达式一样可以嵌套 (5 + 4) * 2 ，要枚举支持嵌套（递归），需要用 `indirect` 关键字标明：
 

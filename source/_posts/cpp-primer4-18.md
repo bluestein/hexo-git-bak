@@ -19,7 +19,7 @@ date: 2015-11-28 16:50:29
 
 <!-- more -->
 
-**1、发生隐式转换**
+### 发生隐式转换 ###
 
 - 混合表达式中，操作数被转化为相同类型
 
@@ -43,7 +43,7 @@ date: 2015-11-28 16:50:29
 	int iv = 3.14;	//3.14 to int
 	```
 
-**2、算术转换**
+### 算术转换 ###
 
 **signed 与 unsigned 类型间的转换**
 
@@ -81,7 +81,7 @@ usiv + iv;	//依赖于 unsigned short 和 int 的大小
 uiv + lv;	//依赖于 unsigned int 和 long 的大小
 ```
 
-**3、其他隐式转换**
+### 其他隐式转换 ###
 
 **指针转换**
 
@@ -149,7 +149,7 @@ while(cin >> s)
 
 该表达式 `cin>>s` 的结果 `cin` 对象，为istream对象，所以此时会将其转化成bool类型。
 
-### 4、显式转换 ###
+### 显式转换 ###
 
 显式转换也称为**强制类型转换（cast）**，有以下操作符：static_cast, dynamic_cast, const_cast, reinterpret_cast。
 
