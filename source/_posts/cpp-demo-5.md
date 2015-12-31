@@ -1,4 +1,4 @@
-title: 'Cpp Code: switch, ex6.9'
+title: 'switch, ex6.9'
 tags:
   - Cpp
 categories:

@@ -1,4 +1,4 @@
-title: 'Cpp:赋值操作和自增自减'
+title: '赋值操作和自增自减'
 tags:
   - Cpp
   - Cpp primer

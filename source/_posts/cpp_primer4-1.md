@@ -1,4 +1,4 @@
-title: 'Cpp: 快速入门'
+title: '快速入门'
 tags:
   - Cpp
   - Cpp primer

@@ -1,4 +1,4 @@
-title: 'Cpp:指针'
+title: '指针'
 tags:
   - Cpp
   - Cpp primer

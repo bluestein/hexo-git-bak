@@ -1,4 +1,4 @@
-title: 'Cpp Code: 输入多个string对象，并存放在vector中'
+title: '输入多个string对象，并存放在vector中'
 tags:
   - Cpp
 categories:

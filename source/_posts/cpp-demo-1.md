@@ -1,4 +1,4 @@
-title: 'Cpp Code: 输入可变长字符串'
+title: '输入可变长字符串'
 tags:
   - Cpp
 categories:

@@ -1,4 +1,4 @@
-title: 'swift: functions' 
+title: 'functions' 
 tags:
   - Swift
   - iOS

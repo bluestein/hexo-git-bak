@@ -1,4 +1,4 @@
-title: 'Cpp:数组'
+title: '数组'
 tags:
   - Cpp
   - Cpp primer

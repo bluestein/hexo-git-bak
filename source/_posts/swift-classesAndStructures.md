@@ -1,4 +1,4 @@
-title: 'swift: Classes and Structures' 
+title: 'Classes and Structures' 
 tags:
   - Swift
   - iOS

@@ -1,4 +1,4 @@
-title: 'swift: enumerations' 
+title: 'enumerations' 
 tags:
   - Swift
   - iOS

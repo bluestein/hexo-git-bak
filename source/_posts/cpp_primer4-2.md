@@ -1,4 +1,4 @@
-title: 'Cpp: 基本类型与字面值常量'
+title: '基本类型与字面值常量'
 tags:
   - Cpp
   - Cpp primer

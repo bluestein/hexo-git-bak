@@ -1,4 +1,4 @@
-title: 'Cpp Code: : ex6.16'
+title: 'ex6.16'
 tags:
   - Cpp
 categories:

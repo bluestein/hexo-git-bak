@@ -1,4 +1,4 @@
-title: 'Cpp:头文件'
+title: '头文件'
 tags:
   - Cpp
   - Cpp primer

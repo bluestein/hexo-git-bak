@@ -1,4 +1,4 @@
-title: 'Cpp Code: if语句'
+title: 'if语句'
 tags:
   - Cpp
 categories:

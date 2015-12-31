@@ -1,4 +1,4 @@
-title: 'Cpp:算术操作符'
+title: '算术操作符'
 tags:
   - Cpp
   - Cpp primer

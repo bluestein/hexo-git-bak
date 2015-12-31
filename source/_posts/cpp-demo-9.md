@@ -1,10 +1,10 @@
-title: 'Cpp Code: ex7.3 - 7.6'
+title: 'ex7.3 - 7.6'
 tags:
   - Cpp
 categories:
   - Code
   - Cpp
-date: 2015-12-23 19:03:42
+date: 2015-12-25 19:03:42
 ---
 
 ### Exercise 7.3 ###

@@ -1,4 +1,4 @@
-title: 'Cpp:new & delete'
+title: 'new & delete'
 tags:
   - Cpp
   - Cpp primer

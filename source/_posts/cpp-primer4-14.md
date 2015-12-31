@@ -1,4 +1,4 @@
-title: 'Cpp:位操作符'
+title: '位操作符'
 tags:
   - Cpp
   - Cpp primer

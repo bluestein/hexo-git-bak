@@ -1,4 +1,4 @@
-title: 'Cpp Code: while, ex6.12'
+title: 'while, ex6.12'
 tags:
   - Cpp
 categories:

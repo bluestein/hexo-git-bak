@@ -1,4 +1,4 @@
-title: 'Cpp:vector类型'
+title: 'vector类型'
 tags:
   - Cpp
   - Cpp primer
@@ -10,12 +10,12 @@ date: 2015-11-17 16:31:51
 
 vector 是一种类型对象的容器，每个对象都有一个对应的整数索引值。我们还把它称之为 **容器**，是因为它可以包含其他对象。一个容器中必须包含的是同一种类型的对象，地9章会详细介绍容器。首先是声明：
 
-<!-- more -->
-
 ```C++
 #include <vector>
 using std::vector;
 ```
+
+<!-- more -->
 
 vector 是一个类模板（class template），所以 vector 可以包含不同类型的对象，如 int 型，string 型。vector 的声明
 

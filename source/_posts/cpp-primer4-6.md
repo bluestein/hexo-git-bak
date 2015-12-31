@@ -1,4 +1,4 @@
-title: 'Cpp:using声明和string类型'
+title: 'using声明和string类型'
 tags:
   - Cpp
   - Cpp primer

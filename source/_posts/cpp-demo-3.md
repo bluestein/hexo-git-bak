@@ -1,4 +1,4 @@
-title: 'Cpp Code: vector存放指针'
+title: 'vector存放指针'
 tags:
   - Cpp
 categories:

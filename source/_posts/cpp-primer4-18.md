@@ -1,4 +1,4 @@
-title: 'Cpp:类型转换'
+title: '类型转换'
 tags:
   - Cpp
   - Cpp primer

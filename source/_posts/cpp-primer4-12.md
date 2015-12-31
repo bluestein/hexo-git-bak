@@ -1,4 +1,4 @@
-title: 'Cpp:C风格字符串'
+title: 'C风格字符串'
 tags:
   - Cpp
   - Cpp primer

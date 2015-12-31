@@ -1,11 +1,11 @@
-title: 'Cpp:参数传递'
+title: '参数传递'
 tags:
   - Cpp
   - Cpp primer
 categories:
   - Dev
   - Cpp
-date: 2015-12-23 20:49:49
+date: 2015-12-29 20:49:49
 ---
 
 ### 引用型形参 ###

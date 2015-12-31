@@ -1,4 +1,4 @@
-title: 'Cpp:bitset类型'
+title: 'bitset类型'
 tags:
   - Cpp
   - Cpp primer
@@ -10,12 +10,13 @@ date: 2015-11-19 16:49:39
 
 有些程序需要处理二进制位的有序集，每位个能包含 0 或 1。 **bitset** 类型简化了位集的处理，使用时必须包含头文件
 
-<!-- more -->
 
 ```C++
 #include <bitset>
 using std::bitset;
 ```
+
+<!-- more -->
 
 ### 1、bitset对象的初始化 ###
 ---

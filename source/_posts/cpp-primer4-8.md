@@ -1,4 +1,4 @@
-title: 'Cpp:迭代器iterator'
+title: '迭代器iterator'
 tags:
   - Cpp
   - Cpp primer

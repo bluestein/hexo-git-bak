@@ -1,4 +1,4 @@
-title: 'Cpp:语句'
+title: '语句'
 tags:
   - Cpp
   - Cpp primer

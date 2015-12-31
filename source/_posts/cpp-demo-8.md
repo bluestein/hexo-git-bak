@@ -1,10 +1,10 @@
-title: 'Cpp Code: ex6.18, 6.20, 6.21'
+title: 'ex6.18, 6.20, 6.21'
 tags:
   - Cpp
 categories:
   - Code
   - Cpp
-date: 2015-12-22 20:03:42
+date: 2015-12-24 20:03:42
 ---
 
 ### Exercise 6.18 ###
