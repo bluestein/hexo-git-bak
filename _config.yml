@@ -65,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next-pisces
+theme: next_pisces
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
