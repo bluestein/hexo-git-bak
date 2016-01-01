@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -26,10 +26,10 @@ since: 2015
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  archives: /archives
   about: /about
-  #tags: /tags
+  archives: /archives
+  categories: /categories
+  tags: /tags
   #commonweal: /404.html
 
 
@@ -68,8 +68,10 @@ scheme: Pisces
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/bluestein
+  简书: http://www.jianshu.com/users/2d2dcfdbf403
+  Weibo: http://weibo.com/u/3239589332
   #Others:
 
 # Social Icons
@@ -79,6 +81,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  简书: heartbeat
 
 
 # Sidebar Avatar
