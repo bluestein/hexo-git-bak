@@ -2,6 +2,7 @@ title: "Github: 账户的创建和配置"
 tags:
   - github
 categories:
+  - Odds&Ends
   - Github + Hexo
 date: 2015-12-04 12:54:49
 ---

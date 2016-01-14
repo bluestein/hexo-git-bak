@@ -3,6 +3,7 @@ tags:
   - github
   - git
 categories:
+  - Odds&Ends
   - Github + Hexo
 date: 2015-12-03 14:54:49
 ---
