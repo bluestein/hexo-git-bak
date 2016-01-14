@@ -1,4 +1,4 @@
-title:
+﻿title:
   archive: 归档
   category: 分类
   tag: 标签
@@ -35,6 +35,7 @@ page:
 footer:
   powered: "由 %s 强力驱动"
   theme: 主题
+  license: 本站采用 知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议。
 
 
 counter:
