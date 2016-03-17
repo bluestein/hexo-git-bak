@@ -8,6 +8,8 @@ categories:
 date: 2016-01-01 14:03:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Exercise 8.3 ###
 
 编写一个程序，一个形参和返回值都是 `istream&` 类型。该函数一直读取直到结束符为止，并且将读取到的内容输出到标准输出中，最后重设流使其有效，并返回该流。

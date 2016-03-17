@@ -8,9 +8,13 @@ categories:
 date: 2016-01-02 14:03:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Exercise 9.9 ###
 
 编写一个循环将 list 以逆序输出
+
+<!-- more -->
 
 ```cpp
 #include <vector>
@@ -41,6 +45,4 @@ int main()
 // hey
 // hi
 ```
-
-待续。。。
 

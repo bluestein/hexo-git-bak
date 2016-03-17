@@ -8,6 +8,8 @@ categories:
 date: 2016-01-02 18:46:49
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 前面介绍过 vector 容器类型，这里会深入探讨 vector 和其他顺序容器（sequential container）类型，还有 string 类型提供的更多操作，甚至可以将 string 看成是仅包含字符串的特殊容器。
 
 标准库定义了三种顺序容器类型：vector，list 和 deque（double-ended queue，发音同 deck）。差别在于访问元素的方式，以及添加或删除元素的运行代价。标准库还提供了三种容器的适配器（adapter），适配器是根据原始的容器类型所提供的的操作，顺序容器适配器包括：stack，queue 和 priority_queue。

@@ -8,6 +8,8 @@ categories:
 date: 2015-12-20 19:53:33
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### defining and calling ###
 
 以定义一个 `sayHello(_:)` 函数作为例子：该函数将一个人的名字作为输入，以一句问候作为返回值：

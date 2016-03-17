@@ -8,6 +8,8 @@ categories:
 date: 2015-12-21 17:53:33
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Syntax ###
 
 使用 `enum` 关键字引出 enumeration 的定义：

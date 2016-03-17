@@ -7,6 +7,8 @@ categories:
 date: 2015-12-22 09:42:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Example ###
 
 统计输入的一句话中元音出现的次数。

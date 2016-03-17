@@ -7,9 +7,13 @@ categories:
 date: 2015-12-25 19:03:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Exercise 7.3 ###
 
 产生第一个参数的第二个参数次幂的值
+
+<!-- more -->
 
 ```C++
 int pow(int base, int power) 
@@ -23,8 +27,6 @@ int pow(int base, int power)
 	return result;
 }
 ```
-
-<!-- more -->
 
 ### Exercise 7.4 ###
 

@@ -8,6 +8,8 @@ categories:
 date: 2015-12-30 14:11:49
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 return 语句用于结束当前正在执行的函数，并将控制权返回给调用此函数的函数。有两种形式：
 
 

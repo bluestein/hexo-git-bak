@@ -7,6 +7,8 @@ categories:
 date: 2015-12-17 15:32:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Example ###
 
 寻找vector中的最小值，并记录这个最小值出现的次数。

@@ -7,6 +7,8 @@ categories:
 date: 2015-12-22 20:03:42
 ---
 
+> 版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ### Exercise 6.16 ###
 
 比较两个int型vector对象，判断一个是否是另一个的前缀。
