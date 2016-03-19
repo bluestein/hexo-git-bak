@@ -4,7 +4,7 @@
 
 # Site
 title: Humooo
-subtitle: Humooo's Blog
+subtitle: 部分Leetcode解法参考我GitHub（链接在下面=_=||）
 description:  Plodding wins the race
 author: Humooo
 language: zh-Hans
@@ -97,4 +97,4 @@ category_generator:
   per_page: 10
 
 # 头像
-avatar: /images/ye.jpg
+avatar: /images/Marsh.jpg

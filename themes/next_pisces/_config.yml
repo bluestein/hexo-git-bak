@@ -1,4 +1,4 @@
-﻿# ---------------------------------------------------------------
+# ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
@@ -6,7 +6,7 @@
 favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "humooo,bluestein,swift,cpp,apple"
+keywords: "humooo, github, ML, algorithm, map reduce"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
